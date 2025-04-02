@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MegaForge | Visual identity for digital products</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-content">
+            <header class="studio-header">
+                <div class="logo-title">
+                  <span class="studio-name">MegaForge</span>
+                  <img src="assets/logo_simple.png" alt="MegaForge Logo" class="logo">
+                  
+                </div>
+              </header>
+            <div class="intro-text">
+                <h1>We craft <span class="accent-text">complete visual identities</span> for digital products.</h1>
+                <p class="specialization">
+                    From logos and social media assets to UX mockups,<br>
+                    UI design, and motion – we create <strong>seamless visual ecosystems</strong> for apps and brands.
+                </p>
+            </div>
+        </div>
+        <div class="hero-bg-shape"></div>
+      </section>
+
+      <section id="projects" class="projects">  
+        <div class="project-item">
+          <div class="project-image-container">
+            <img src="assets/grapl.jpg" class="project-image">
+          </div>
+          <div class="project-details">
+            <h3>Platform for detection of incidents</h3>
+            <div class="project-tags">
+              <span>Brand Identity</span>
+              <span>Web Design</span>
+              <span>Social Assets</span>
+            </div>
+            <p>End-to-end digital presence for a platform for detection and response of incidents, creating cohesive experience across web and mobile platforms.</p>
+          </div>
+        </div>
+
+        <div class="project-item reverse">
+          <div class="project-image-container">
+            <img src="assets/ramp.jpg" class="project-image">
+          </div>
+          <div class="project-details">
+            <h3>Cryptocurrency toolkit provider</h3>
+            <div class="project-tags">
+              <span>Brand Identity</span>
+              <span>UI/UX Design</span>              
+              <span>Animation</span>
+            </div>
+            <p>Complete visual identity for a next-generation cryptocurrency network, including onboarding flows, dashboard design, and micro-interactions.</p>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-image-container">
+            <img src="assets/whisphy.jpg" class="project-image">
+          </div>
+          <div class="project-details">
+            <h3>Wishlist creation app</h3>
+            <div class="project-tags">
+              <span>UI/UX Design</span>
+              <span>Mobile Design</span>
+              <span>Web Design</span>
+            </div>
+            <p>Design of graphic elements, UI and UX for mobile app and accompanying website</p>
+          </div>
+        </div>
+      
+        <div id="imageModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="expandedImage">
+          <div id="caption"></div>
+        </div>
+      </section>
+
+  <section class="contact">
+    <p>Interested in working together? Reach out.</p>
+    <a href="mailto:megaforged@gmail.com" class="email-link">megaforged@gmail.com</a>
+  </section>
+
+  <footer>
+    <p>© MegaForge <span id="year"></span></p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
